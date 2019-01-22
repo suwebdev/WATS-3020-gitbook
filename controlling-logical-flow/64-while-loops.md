@@ -34,7 +34,7 @@ In this example, we set up an infinite loop, but once a status is received and c
 Please try working these exercises to practice some of the skills we've learned in this section.
 
 {% exercise %}
-Define a `while` loop that will add 1 to a number until it equals 42.
+Define a `while` loop that prints a number to the console in increments of 1 through the number 42.
 
 {% initial %}
 let x = 0;

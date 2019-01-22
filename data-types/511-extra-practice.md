@@ -67,7 +67,7 @@ let userRegistered = true;
         <answer>Array</answer>
         <answer>Number</answer>
         <answer correct>Boolean</answer>
-        <explanation>The variable <code>baz</code> is equal to <code>undefined</code> because we cannot multiply two Strings.</explanation>
+        <explanation>Variables with a value of <code>true</code> or <code>false</code> are boolean.</explanation>
     </question>
 
 </quiz>

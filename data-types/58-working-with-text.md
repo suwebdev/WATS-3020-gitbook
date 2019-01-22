@@ -162,27 +162,17 @@ assert(typeof(filePath)==="string", 'Incorrect.');
 Replace the expression tags in this template literal to insert the corresponding data.
 
 {% initial %}
-let name = "Grace Hopper";
-let source = "Ships Ahoy Magazine";
-let date = "July 1986";
+let name = "Abraham Lincoln";
 
-let message = `"It's easier to ask forgiveness than it is to get permission."
-    Name, Source
-    Date`;
+let message = `"Whatever you are, be a good one." -Name`;
 
 {% solution %}
-let name = "Grace Hopper";
-let source = "Ships Ahoy Magazine";
-let date = "July 1986";
+let name = "Abraham Lincoln";
 
-let message = `"It's easier to ask forgiveness than it is to get permission."
-    ${name}, ${source}
-    ${date}`;
+let message = `"Whatever you are, be a good one." -${name}`;
 
 {% validation %}
-assert(message === `"It's easier to ask forgiveness than it is to get permission."
-Grace Hopper, Ships Ahoy Magazine
-July 1986`, 'Try again!');
+assert(message === `"Whatever you are, be a good one." -Abraham Lincoln`, 'Try again!');
 
 {% endexercise %}
 
