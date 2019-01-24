@@ -215,7 +215,7 @@ The data above represents a three-day weather forecast for Seattle, WA. Use this
         <answer>Boolean</answer>
         <answer>Object</answer>
         <answer>Array</answer>
-        <explanation><code>weatherData.list[0].weather[0].main</code> is a String.</explanation>
+        <explanation><code>weatherData.list[2].weather[0].main</code> is a String.</explanation>
     </question>
     <question>
         <p>What is the Data Type of <code>weatherData.list[2].weather</code>?</p>
@@ -224,7 +224,7 @@ The data above represents a three-day weather forecast for Seattle, WA. Use this
         <answer>Boolean</answer>
         <answer>Object</answer>
         <answer correct>Array</answer>
-        <explanation><code>weatherData.list[0].weather</code> is an Array.</explanation>
+        <explanation><code>weatherData.list[2].weather</code> is an Array.</explanation>
     </question>
 
 </quiz>
